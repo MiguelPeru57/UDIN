@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDIN - Inclusión y Desarrollo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            background: white;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005f73;
+        }
+        footer {
+            background: #004080;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Unión para el Desarrollo Inclusivo (UDIN)</h1>
+        <nav>
+            <ul>
+                <li><a href="#donaciones">Donaciones</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#trabajo">Bolsa de Trabajo</a></li>
+                <li><a href="#consultas">Consultas Médicas</a></li>
+                <li><a href="#transparencia">Transparencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="donaciones">
+        <h2>Apoya Nuestra Causa</h2>
+        <p>Tu donación nos ayuda a brindar oportunidades de educación, empleo y salud a quienes más lo necesitan.</p>
+        <button>Donar Ahora</button>
+    </section>
+    
+    <section id="educacion">
+        <h2>Educación en Línea</h2>
+        <p>Accede a cursos gratuitos y pagos para la capacitación de personas en situación vulnerable.</p>
+        <button>Explorar Cursos</button>
+    </section>
+    
+    <section id="trabajo">
+        <h2>Bolsa de Trabajo</h2>
+        <p>Encuentra oportunidades de empleo adaptadas a
